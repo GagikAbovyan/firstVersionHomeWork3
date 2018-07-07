@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">week2homework3</string>
+    <string name="elizabeth">Elizabeth</string>
+    <string name="image_elizabeth">Image_Elizabeth</string>
+    <string name="in_search">In search</string>
+    <string name="user">user</string>
+    <string name="bot">bot</string>
+    <string name="input">input</string>
+    <string name="button_send">Button_Send</string>
+    <string name="open_wiki_company">open wiki company</string>
+    <string name="hollywood">HollyWood</string>
+    <string name="elizabeth_mobile">+374 00 00 00</string>
+</resources>

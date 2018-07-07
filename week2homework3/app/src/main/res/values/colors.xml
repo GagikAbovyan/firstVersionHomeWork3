@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="in_search">#08f90f</color>
+    <color name="married">#ff0105</color>
+    <color name="beloved">#9c08f2</color>
+    <color name="lesbian">#fb00ff</color>
+    <color name="white">#FFFFFF</color>
+    <color name="chat_color">#c8b49790</color>
+    <color name="blue">#182074</color>
+
+</resources>

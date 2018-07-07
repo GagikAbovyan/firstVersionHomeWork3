@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_size">100dp</dimen>
+    <dimen name="size_of_photo">30dp</dimen>
+    <dimen name="size_of_top">8dp</dimen>
+    <dimen name="size_text">30sp</dimen>
+    <dimen name="margin_of_top">120dp</dimen>
+    <dimen name="listView_size">270dp</dimen>
+    <dimen name="size">20dp</dimen>
+</resources>

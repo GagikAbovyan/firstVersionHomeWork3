@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context="ru.startandroid.week2homework3.BinaryActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#be5c1f"
+        >
+
+        <ImageView
+            android:id="@+id/image_binary"
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:contentDescription="@string/image_elizabeth"
+            android:scaleType="centerCrop"
+            android:src="@drawable/elizabeth" />
+
+        <TextView
+            android:id="@+id/name_binary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/size_of_photo"
+            android:layout_marginTop="@dimen/size_of_top"
+            android:layout_toEndOf="@+id/image_binary"
+            android:background="@color/chat_color"
+            android:fontFamily="casual"
+            android:padding="@dimen/size_of_top"
+            android:text="@string/elizabeth"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_text" />
+
+        <TextView
+            android:id="@+id/status_binary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/size_of_top"
+            android:layout_marginTop="@dimen/size_of_photo"
+            android:layout_toEndOf="@+id/name_binary"
+            android:text="@string/in_search"
+            android:textColor="@color/in_search"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:text="@string/elizabeth_mobile"
+        />
+
+    <TextView
+        android:id="@+id/company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/mobile"
+        android:layout_marginTop="@dimen/size"
+        android:textColor="@color/white"
+        android:text="@string/hollywood"
+        />
+
+    <ImageButton
+        android:id="@+id/companyWiki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/company"
+        android:layout_marginTop="@dimen/size_of_top"
+        android:layout_marginStart="@dimen/size_of_top"
+        android:layout_below="@+id/mobile"
+        android:contentDescription="@string/open_wiki_company"
+        android:src="@drawable/ic_work"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageButton
+        android:id="@+id/mobileCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/mobile"
+        android:layout_marginTop="@dimen/size_of_top"
+        android:layout_marginStart="@dimen/size_of_top"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/open_wiki_company"
+        android:src="@drawable/ic_call"
+        />
+
+
+
+</RelativeLayout>

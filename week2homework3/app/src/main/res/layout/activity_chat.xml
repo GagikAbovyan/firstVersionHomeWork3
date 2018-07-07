@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chat_color"
+    tools:context="ru.startandroid.week2homework3.ChatActivity">
+
+    <ImageView
+        android:id="@+id/image_chat"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:scaleType="centerCrop"
+        android:src="@drawable/elizabeth"
+        android:contentDescription="@string/image_elizabeth" />
+
+    <TextView
+        android:id="@+id/nameChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/image_chat"
+        android:layout_marginStart="@dimen/size_of_photo"
+        android:layout_marginTop="@dimen/size_of_top"
+        android:textSize="@dimen/size_text"
+        android:fontFamily="casual"
+        android:textColor="@color/white"
+        android:padding="@dimen/size_of_top"
+        android:text="@string/elizabeth"
+        />
+
+    <TextView
+        android:id="@+id/status_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/nameChat"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/size_of_top"
+        android:textColor="@color/in_search"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/size_of_photo"
+        android:text="@string/in_search"
+        />
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/listView_size"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:background="#8e7f7f">
+    </ListView>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/image_size"
+        android:hint="@string/input"
+        />
+
+    <ImageButton
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_near_me"
+        android:contentDescription="@string/button_send" />
+
+
+</RelativeLayout>
